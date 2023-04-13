@@ -1,0 +1,41 @@
+@media(max-width:800px){
+    .view{
+       display: block;
+       margin:0 auto;
+       text-align: center;
+       margin-bottom:30%;
+    }
+
+    .creature{
+       display: block;
+       margin:0 auto;
+       text-align: center;
+       margin-bottom:15%; 
+    }
+
+    .activeleft{
+        display: block;
+        margin:0 auto;
+       text-align: center;
+        margin-bottom:15%;
+    }
+
+    .activeright{
+        display: block;
+        margin:0 auto;
+       text-align: center;
+        margin-bottom:15%;
+    }
+
+    .info{
+        display: block;
+        margin:0 auto;
+       text-align: center;
+    }
+
+    .inof iframe{
+        width:95%;
+        height:50%;
+       
+    }
+}
