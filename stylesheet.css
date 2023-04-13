@@ -1,0 +1,153 @@
+body{
+    margin:3%;
+    background-size: cover;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: darkgrey;
+}
+
+a:active{
+    color:blue;
+}
+
+header{
+    background-color: rgb(163, 200, 255);
+    margin-bottom:2%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.title img{
+    width:5%;
+    height: 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    margin-right: 3%;
+}
+
+nav a{
+    margin:0 1%;
+}
+
+.headerimg{
+    position: relative;
+    margin-bottom:5%;
+}
+
+.headerimg img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.headerimg p{
+    list-style: none;
+    position: absolute;
+    top:20%;
+    font-size:40px;
+    color:white;
+    line-height:80px ;
+    margin-left: 5%;
+}
+
+.nature{
+    margin:0 5%;
+    margin-bottom:5%;
+}
+
+.nature h3{
+    border-bottom: solid 2px black;
+}
+
+.view{
+    display: flex;
+    margin-left:20%;
+    margin-bottom: 3%;
+    align-items: center;
+}
+
+.creature{
+    display: flex;
+    margin-right: 20%;
+    justify-content: right;
+    align-items: center;
+}
+
+.nature p{
+    margin:0 1%;
+    font-size: 20px;
+    font-family:'M PLUS 1p', sans-serif;
+}
+
+.activity{
+    margin:0 5%;
+    margin-bottom:5%;
+}
+
+.activity h3{
+    border-bottom: solid 2px black;
+}
+
+.activeleft{
+    display: flex;
+    margin-left:20%;
+    margin-top: 3%;
+    margin-bottom:3%;
+    align-items: center;
+}
+
+.activeright{
+    display: flex;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom:3%;
+    justify-content: right;
+    align-items: center;
+}
+
+.activity p{
+    margin:0 1%;
+    font-size: 20px;
+    font-family:'M PLUS 1p', sans-serif;    
+}
+
+.access h3{
+    border-bottom: solid 2px black;
+}
+
+.access{
+    margin:0 5%;
+    margin-bottom:5%;
+}
+
+.info{
+    display: flex;
+}
+
+.info p{
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(163, 200, 255);
+    margin-bottom:2%;
+}
+
+.footerp p{
+    text-align: center;
+    font-size: 6px;
+}
+
